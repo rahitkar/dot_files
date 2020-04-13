@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--ignore-scripts',
+1 verbose cli   '@types/testing-library__jest-dom@ts3.6',
+1 verbose cli   '@types/testing-library__react@ts3.6',
+1 verbose cli   '@types/testing-library__user-event@ts3.6',
+1 verbose cli   '@types/react@ts3.6',
+1 verbose cli   '@types/react-dom@ts3.6',
+1 verbose cli   '@types/async@ts3.6',
+1 verbose cli   '@types/atob@ts3.6',
+1 verbose cli   '@types/object-path@ts3.6',
+1 verbose cli   '--save-dev',
+1 verbose cli   '--user-agent=typesInstaller/3.6.3'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.16.1
+4 verbose npm-session d97fd1becc7542ad
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for @types/testing-library__jest-dom@ts3.6 request to https://registry.npmjs.org/@types%2ftesting-library__jest-dom failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+8 silly fetchPackageMetaData error for @types/testing-library__user-event@ts3.6 request to https://registry.npmjs.org/@types%2ftesting-library__user-event failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+9 silly fetchPackageMetaData error for @types/async@ts3.6 request to https://registry.npmjs.org/@types%2fasync failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+10 silly fetchPackageMetaData error for @types/atob@ts3.6 request to https://registry.npmjs.org/@types%2fatob failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+11 silly fetchPackageMetaData error for @types/object-path@ts3.6 request to https://registry.npmjs.org/@types%2fobject-path failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+12 warn registry Using stale data from https://registry.npmjs.org/ because the host is inaccessible -- are you offline?
+13 warn registry Using stale data from https://registry.npmjs.org/ due to a request error during revalidation.
+14 http fetch GET 200 https://registry.npmjs.org/@types%2ftesting-library__react 50ms (from cache)
+15 http fetch GET 200 https://registry.npmjs.org/@types%2freact 51ms (from cache)
+16 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 52ms (from cache)
+17 http fetch GET 200 https://registry.npmjs.org/@types/testing-library__react/-/testing-library__react-9.1.3.tgz 11ms (from cache)
+18 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-16.9.23.tgz 15ms (from cache)
+19 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-16.9.5.tgz 17ms (from cache)
+20 silly pacote tag manifest for @types/testing-library__react@ts3.6 fetched in 80ms
+21 silly pacote tag manifest for @types/react@ts3.6 fetched in 79ms
+22 silly pacote tag manifest for @types/react-dom@ts3.6 fetched in 79ms
+23 timing stage:rollbackFailedOptional Completed in 0ms
+24 timing stage:runTopLevelLifecycles Completed in 215ms
+25 verbose type system
+26 verbose stack FetchError: request to https://registry.npmjs.org/@types%2ftesting-library__jest-dom failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+26 verbose stack     at ClientRequest.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+26 verbose stack     at ClientRequest.emit (events.js:311:20)
+26 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:426:9)
+26 verbose stack     at TLSSocket.emit (events.js:311:20)
+26 verbose stack     at emitErrorNT (internal/streams/destroy.js:92:8)
+26 verbose stack     at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+26 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:84:21)
+27 verbose cwd /Users/step14/Library/Caches/typescript/3.6
+28 verbose Darwin 19.0.0
+29 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--ignore-scripts" "@types/testing-library__jest-dom@ts3.6" "@types/testing-library__react@ts3.6" "@types/testing-library__user-event@ts3.6" "@types/react@ts3.6" "@types/react-dom@ts3.6" "@types/async@ts3.6" "@types/atob@ts3.6" "@types/object-path@ts3.6" "--save-dev" "--user-agent=typesInstaller/3.6.3"
+30 verbose node v12.16.1
+31 verbose npm  v6.13.4
+32 error code ENOTFOUND
+33 error errno ENOTFOUND
+34 error network request to https://registry.npmjs.org/@types%2ftesting-library__jest-dom failed, reason: getaddrinfo ENOTFOUND registry.npmjs.org
+35 error network This is a problem related to network connectivity.
+35 error network In most cases you are behind a proxy or have bad network settings.
+35 error network
+35 error network If you are behind a proxy, please make sure that the
+35 error network 'proxy' config is set properly.  See: 'npm help config'
+36 verbose exit [ 1, true ]

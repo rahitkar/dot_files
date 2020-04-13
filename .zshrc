@@ -108,6 +108,8 @@ source $ZSH/oh-my-zsh.sh
 alias gst="git status"
 alias glo="git log"
 alias gadd="git add"
+alias redis-server="/Users/step14/Downloads/redis-5.0.7/src/redis-server"
+alias cljr="clojure -A:rebel"
 source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
  
@@ -122,3 +124,4 @@ source /Users/step14/.oh-my-zsh/plugins/colored-man-pages/colored-man-pages.plug
 source /Users/step14/.oh-my-zsh/plugins/web-search/web-search.plugin.zsh
 
 export LC_ALL=en_US.UTF-8
+
