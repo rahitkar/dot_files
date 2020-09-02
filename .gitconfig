@@ -2,4 +2,4 @@
 	name = Rahit
 	email = rahitkar@users.noreply.github.com
 [commit]
-	template = /Users/step14/gitmessage
+	template = ./commit-template

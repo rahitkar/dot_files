@@ -110,7 +110,8 @@ alias glo="git log"
 alias gadd="git add"
 alias redis-server="/Users/step14/Downloads/redis-5.0.7/src/redis-server"
 alias cljr="clojure -A:rebel"
-source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+alias rNode="USER_NAME="rahit" node ~/myNodeRepl/myRepl.js"
+source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
  
 source ~/powerlevel10k/powerlevel10k.zsh-theme
