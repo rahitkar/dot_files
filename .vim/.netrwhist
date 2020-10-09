@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/step14/work/step-birds'
+let g:netrw_dirhist_4='/Users/step14/work/taiko'
+let g:netrw_dirhist_3='/Users/step14/hi'
+let g:netrw_dirhist_2='/Users/step14'
+let g:netrw_dirhist_1='/Users/step14/.oh-my-zsh'
+let g:netrw_dirhist_0='/Users/step14/work/all_js/workWithTest_js/printPattern_js/test'
+let g:netrw_dirhist_9='/Users/step14/work/all_js/workWithTest_js/printPattern_js'
+let g:netrw_dirhist_8='/Users/step14/work/all_js/workWithTest_js/printPattern_js/test'
+let g:netrw_dirhist_7='/Users/step14/work/all_js/workWithTest_js/printPattern_js'
+let g:netrw_dirhist_6='/Users/step14/work/all_js/workWithTest_js/printPattern_js/src'
